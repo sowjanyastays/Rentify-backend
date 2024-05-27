@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const userRouter = require('./routes/userRoutes');
-const rentalRouter = require('./routes/rentalRoutes');
+const userRouter = require('../routes/userRoutes');
+const rentalRouter = require('../routes/rentalRoutes');
 const cors = require('cors');
 
 dotenv.config();
